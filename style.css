@@ -1,0 +1,41 @@
+h5 {
+    color: blue;
+}
+.first-class {
+    color: blueviolet;
+}
+
+#second-id {
+    color: rgb(255, 0, 0);
+}
+
+.color {
+    color: aquamarine;
+}
+
+.changed {
+    color: rgb(191, 247, 6);
+}
+
+div span {
+    color: rgb(255, 0, 123);
+}
+
+.first-element + .second-element {
+    color: rgb(255, 217, 0);
+}
+
+p~span {
+    color: rgb(27, 222, 13);
+}
+
+span[lang="uk"] {
+    color: rgb(119, 160, 119);
+}
+
+.second-class {
+    color: blanchedalmond;
+}
+.third-class {
+    color: rgb(135, 135, 42);
+}

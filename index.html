@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cелектори</title>
+</head>
+<body>
+    <h1>Якими бувають селектори?</h1>
+    <p>У цьому завданні я буду використовувати такі типи селекторів, наприклад:
+        <br>
+        <ul>
+            <li><code>ul {color: aqua;}</code> - селектор за елементом</li>
+            <li><code>.first-h1 {color: aqua;} - селектор за класом, де "first-h1 - ім'я класу"</code></li>
+            <li><code>#second-h1 {color: aqua;}</code>- селектор за класом, де "second-h1 - id"</li>
+            <li>Використання декількох класів, приклад коду:
+            <br>
+            <code>li class="product">Товар /li>
+            <br>
+            li class="product hit">Товар, а ещё хит продаж /li></code>
+            <br>
+            Детальніше: у прикладі зверху розміри карток товарів можна описати в CSS-правилі <code>.product</code>, а особливий фон для хіта продажів - в правилі <code>.hit</code>
+            </li>
+            <li>Вкладений селектор, приклад коду:
+            <br>
+            <code>div>
+                <br>
+                span> I am span /span>
+                <br>
+                /div>
+            </code>
+            <br>
+            Такий вигляд буде мати у CSS:
+            <br>
+            <code>div span {color: aqua;}</code>
+            </li>
+            <li><code>style="color: aqua;"</code> - inline styles, що прописується безпосередньо у коді, а не у CSS.</li>
+            <li><code>*</code> - селектор, который применяется ко всему коду</li>
+        </ul>
+    <h2>Приклади за типами селекторів:</h2>
+        <ol>
+            <li><h5>Селектор за елементом</h5></li>
+            <li><p class="first-class">Селектор за класом</p</li>
+            <li><p id="second-id">Селектор за id</p></li>
+            <li><p class="color changed">Декілька класів</p></li>
+            <li><div>
+                <span> Вкладений селектор </span>
+                </div></li>
+            <li> <ol class="first-element">Сусідні елементи</ol>
+                 <ol class="second-element">Сусідні елементи</ol>
+            </li>
+            <li>
+                <span>Це не зелений.</span>
+                <p>Тут параграф.</p>
+                <code>Селектор наступного елемента.</code>
+                <span>А тут зелений.</span>
+            </li>
+            <li><span lang="uk">Селектор атрібута<span></li>
+            <li><p class="second-class">Ще один селектор за класом</p></li>
+            <li><p class="third-class">І ще один селектор за класом</p></li>
+        </ol>
+
+</body>
+</html>
